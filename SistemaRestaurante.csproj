@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Entidades\Cocinero.cs" />
     <Compile Include="Entidades\Empleado.cs" />
     <Compile Include="Entidades\Mesero.cs" />
     <Compile Include="Entidades\Persona.cs" />
