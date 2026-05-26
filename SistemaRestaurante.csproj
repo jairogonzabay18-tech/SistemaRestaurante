@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controlador\TListaCliente.cs" />
+    <Compile Include="Controlador\TListaPlato.cs" />
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Cocinero.cs" />
     <Compile Include="Entidades\Empleado.cs" />
