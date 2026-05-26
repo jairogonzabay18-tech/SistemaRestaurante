@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlador\TListaCliente.cs" />
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Cocinero.cs" />
     <Compile Include="Entidades\Empleado.cs" />
@@ -80,7 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controlador\" />
     <Folder Include="Formularios\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
