@@ -126,5 +126,40 @@ namespace SistemaRestaurante.Formularios
 
             AbrirFormulario(frm);
         }
+
+        private void platosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPlatos frm = new frmPlatos();
+
+            AbrirFormulario(frm);
+        }
+
+        private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPedidos frm = new frmPedidos();
+
+            AbrirFormulario(frm);
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEmpleados frm = new frmEmpleados();
+
+            AbrirFormulario(frm);
+        }
+
+        private void mesasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMesas frm = new frmMesas();
+
+            AbrirFormulario(frm);
+        }
+
+        private void pagosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPagos frm = new frmPagos();
+
+            AbrirFormulario(frm);
+        }
     }
 }
