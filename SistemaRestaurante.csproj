@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlador\TLista.cs" />
     <Compile Include="Controlador\TListaCliente.cs" />
     <Compile Include="Controlador\TListaPedido.cs" />
     <Compile Include="Controlador\TListaPlato.cs" />
