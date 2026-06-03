@@ -87,5 +87,10 @@ namespace SistemaRestaurante.Entidades
                    "Total: $" + Total + "\n" +
                    "Estado: " + Estado;
         }
+
+        public override string ToString()
+        {
+            return idPedido.ToString();
+        }
     }
 }
