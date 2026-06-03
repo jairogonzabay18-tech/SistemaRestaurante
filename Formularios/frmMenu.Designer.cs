@@ -104,7 +104,7 @@
             // 
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(9, 25);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(582, 485);
             this.panel1.TabIndex = 1;
@@ -112,12 +112,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 127);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 125);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(505, 46);
+            this.label1.Size = new System.Drawing.Size(552, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenidos al Restaurante ";
+            this.label1.Text = "Bienvenidos al Restaurante Jairo ";
             // 
             // frmMenu
             // 
@@ -127,7 +127,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMenu";
             this.Text = "frmMenu";
             this.Load += new System.EventHandler(this.frmMenu_Load);
