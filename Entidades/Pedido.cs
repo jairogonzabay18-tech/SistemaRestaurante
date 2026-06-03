@@ -12,6 +12,8 @@ namespace SistemaRestaurante.Entidades
         private Cliente cliente;
         private Mesero mesero;
         private Mesa mesa;
+        private Plato plato;
+        private int cantidad;
         private decimal subtotal;
         private decimal iva;
         private decimal total;
@@ -23,16 +25,24 @@ namespace SistemaRestaurante.Entidades
 
         }
 
-        public Pedido(int idPedido, Cliente cliente,
-                       Mesero mesero, Mesa mesa,
-                       decimal subtotal, decimal iva,
-                       decimal total, string estado,
-                       DateTime fechaHora)
+        public Pedido(int idPedido,
+                      Cliente cliente,
+                      Mesero mesero,
+                      Mesa mesa,
+                      Plato plato,
+                      int cantidad,
+                      decimal subtotal,
+                      decimal iva,
+                      decimal total,
+                      string estado,
+                      DateTime fechaHora)
         {
             this.idPedido = idPedido;
             this.cliente = cliente;
             this.mesero = mesero;
             this.mesa = mesa;
+            this.plato = plato;
+            this.cantidad = cantidad;
             this.subtotal = subtotal;
             this.iva = iva;
             this.total = total;
@@ -44,6 +54,8 @@ namespace SistemaRestaurante.Entidades
         public Cliente Cliente { get => cliente; set => cliente = value; }
         public Mesero Mesero { get => mesero; set => mesero = value; }
         public Mesa Mesa { get => mesa; set => mesa = value; }
+        public Plato Plato { get => plato; set => plato = value; }
+        public int Cantidad { get => cantidad; set => cantidad = value; }
         public decimal Subtotal { get => subtotal; set => subtotal = value; }
         public decimal Iva { get => iva; set => iva = value; }
         public decimal Total { get => total; set => total = value; }

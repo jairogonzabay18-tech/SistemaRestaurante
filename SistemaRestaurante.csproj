@@ -109,6 +109,9 @@
     <EmbeddedResource Include="Formularios\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPedidos.resx">
+      <DependentUpon>frmPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmPlatos.resx">
       <DependentUpon>frmPlatos.cs</DependentUpon>
     </EmbeddedResource>
