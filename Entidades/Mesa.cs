@@ -30,12 +30,12 @@ namespace SistemaRestaurante.Entidades
 
         public void Reservar()
         {
-            Disponible = false;
+            Disponible = true;
         }
 
         public void Liberar()
         {
-            Disponible = true;
+            Disponible = false;
         }
 
         public string ImprimirMesa()
