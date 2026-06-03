@@ -61,5 +61,10 @@ namespace SistemaRestaurante.Entidades
         public abstract string ObtenerRol();
 
         public abstract string ObtenerInfo();
+
+        public override string ToString()
+        {
+            return NombreCompleto();
+        }
     }
 }

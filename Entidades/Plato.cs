@@ -70,5 +70,10 @@ namespace SistemaRestaurante.Entidades
                    "Stock: " + Stock + "\n" +
                    "Disponible: " + Disponible;
         }
+
+        public override string ToString()
+        {
+            return Nombre;
+        }
     }
 }

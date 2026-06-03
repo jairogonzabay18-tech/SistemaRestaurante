@@ -45,5 +45,10 @@ namespace SistemaRestaurante.Entidades
                    "Capacidad: " + Capacidad + "\n" +
                    "Disponible: " + Disponible;
         }
+
+        public override string ToString()
+        {
+            return Numero.ToString();
+        }
     }
 }
