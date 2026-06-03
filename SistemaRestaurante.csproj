@@ -115,6 +115,9 @@
     <EmbeddedResource Include="Formularios\frmMesas.resx">
       <DependentUpon>frmMesas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPagos.resx">
+      <DependentUpon>frmPagos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmPedidos.resx">
       <DependentUpon>frmPedidos.cs</DependentUpon>
     </EmbeddedResource>
