@@ -35,7 +35,7 @@ namespace SistemaRestaurante.Entidades
 
         public void Liberar()
         {
-            Disponible = false;
+            Disponible =false;
         }
 
         public string ImprimirMesa()
